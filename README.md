@@ -6,6 +6,15 @@ git remote add origin git@github.com:Aivan-Productions/jira.git
 git pull origin main
 ```
 
+Создание виртуального окружения и установка необходимых библиотек
+
+```
+python -m venv .venv
+. .venv/bin/activate (если у вас Linux)
+.venv\Scripts\activate (если у вас Windows)
+pip install -r requirements.txt
+```
+
 ## Как выполнять задачи?
 
 #### 1.Создаем ветку под свою задачу
@@ -137,6 +146,7 @@ updaeted_at datetime
 
 *Можете использовать другие нейронки вам известные для решения задач, если у вас есть трудности с доступом к chatgpt*
 
-### Структура проекта
-
-Появиться позже
+### Полезные ссылки
+- [Ссылка на проект](https://github.com/Aivan-Productions/jira)
+- [Ссылка на задачи](https://github.com/orgs/Aivan-Productions/projects/18/views/1)
+- [Ссылка на проект откуда можно брать код](https://github.com/DmitryGolub/blog)
